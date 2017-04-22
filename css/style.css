@@ -1,0 +1,143 @@
+*
+{
+    font-family: Century Gothic;
+    font-size: 100%;
+}
+/*Start cover and nav*/
+/*End cover and nav*/
+.All .Vis img,.All .Str img,.All .Mis img,.All .Obj img
+{
+    width: 15%;
+    float: left;
+    padding-left: 8%;
+}
+
+.Clear-float 
+{
+    clear: left;
+}
+/*Arrows*/
+.Arrows .Vis_arro img
+{
+    width: 15%;
+    margin-left: 8%;
+    display: none;
+    top:2%;
+    margin-bottom: 0%;
+}
+.Arrows .Mis_arro img
+{
+    width: 15%;
+    margin-left: 31%;
+    display: none;
+    top:2%;
+    
+}
+.Arrows .Obj_arro img
+{
+    width: 15%;
+    margin-left: 54%;
+    display: none;
+    top:2%;
+    
+}
+.Arrows .Str_arro img
+{
+    width: 15%;
+    margin-left: 77%;
+    display: none;
+    top:2%;
+}
+/*End arrows*/
+.Center_image img
+{
+    opacity: 0.2;
+    top:0%;
+    display: none;
+}
+/*Start topics*/
+section
+{
+    width: 90%;
+    position: absolute;
+    top:65%;
+    z-index: 999;
+}
+.Center_image img
+{
+    display: none;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: absolute;
+    top:26%;
+    z-index: -1;
+}
+.Str_top img
+{
+    display: none;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: absolute;
+    
+}
+section span
+{
+    color:black;
+    font-size: 40px;
+    margin: 2%;
+    margin-top: 0%;
+    display: none;
+}
+section .Vis_line
+{
+    width:95%;
+    height: 7px;
+    background-color: #9a1915;
+    margin: 2%;
+    display: none;
+}
+.Obj_details,.Mis_details,.Vis_details
+{
+    margin-top: 7%;
+}
+section li
+{
+    font-size: 20px;
+    padding: 0.5%;
+    text-align: justify;
+    width:80%;
+    display: none;
+}
+/*End topics*/
+/*Start media queries*/
+@media (max-width:500px)
+{
+    .Vis img,.Str img,.Mis img,.Obj img
+    {
+        float: none;
+        width: 100%;
+        margin-bottom: 2%;
+        margin-left: 0px;
+    }
+    section span
+    {
+        font-size:20px;
+        margin: 0%;
+        padding: 0%;
+        text-align: left;
+    }
+    section li
+    {
+        font-size: 15px;
+        margin: 0%;
+        padding: 0%;
+        text-align: left;
+    }
+    section .Vis_line
+{
+    height: 2px;
+}
+}
+/*End media queries*/
